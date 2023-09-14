@@ -1,0 +1,8 @@
+Refazer o código abaixo informando além do valor total da venda também informar as informações no final na impressão da:
+1. Código do Produto
+2. Quantidade 
+3. Valor Unitário 
+4. Valor total (Qtd x Valor Unitário)
+Obs: Imagem em anexo como exemplo.
+
+Se quiser podem refatorar usando vetor, mas não é obrigatório.
