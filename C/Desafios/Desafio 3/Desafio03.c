@@ -21,7 +21,8 @@ scanf ("%d", &codigo_cliente);
                scanf ("%d", &codigo_produto);
           }          
           printf ("\n=====================================================");
-          printf ("\nO cliente %d deve pagar R$ %.2f", codigo_cliente, valor_total);
+          printf("\nO custo unitário do produto de código %d é de R$%.2f ", codigo_produto, preco_unitario);
+          printf ("\nO cliente %d deve pagar R$ %.2f por uma quantidade total de %d produtos", codigo_cliente, valor_total, quantidade);
           printf ("\n=====================================================");
           printf ("\n\n1. Digite o codigo do cliente. Digite zero para encerrar a execucao: ");
           scanf ("%d", &codigo_cliente);
