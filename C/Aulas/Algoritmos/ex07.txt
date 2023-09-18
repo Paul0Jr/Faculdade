@@ -1,0 +1,8 @@
+Sabendo que A=3, B=7 e C=4, informe se as expressões abaixo
+são verdadeiras ou falsas.
+
+a) (A+C)>B   (F)
+b) B>=(A+2)  (V)
+c) C=(B-A)   (V)
+d) (B+A)<=C  (F)
+e) (C+A)>B   (F)

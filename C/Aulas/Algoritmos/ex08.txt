@@ -1,0 +1,14 @@
+Considere a seguinte atribuição de valores para as
+variáveis: A=3, B=4, C=8. Avalie as expressões a
+seguir indicando o resultado final: verdadeiro ou falso.
+
+1) A>3 E C=8 (F)
+2) A<>2 OU B<=5 (V)
+3) A=3 OU B>=2 E C=8 (V)
+4) A=3 E NÃO B<=4 E C=8 (F)
+5) A<>8 OU B=4 E C>2 (V)
+6) B>A E C<>A (V)
+7) A>B OU B<5 (V)
+8) A<>B E B=C (F)
+9) C>2 OU A<B (V)
+10) A>B OU B>A E C<>B (V)

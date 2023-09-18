@@ -1,0 +1,13 @@
+/* Tendo como dados de entrada a altura de uma pessoa,
+construa um algoritmo que calcule seu peso ideal, utilizando
+a seguinte fórmula:
+• peso ideal = (72.7*h) – 58 */
+
+var float altura, peso_ideal;
+
+mostrar("Digite o valor de sua altura em metros: ");
+escanear("%f", &altura);
+
+peso_ideal = (72*altura) - 58;
+
+mostrar("Seu peso ideal é de %.2f kg!", peso_ideal);

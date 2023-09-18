@@ -1,0 +1,15 @@
+/* Tendo como entrada o total vendido por um funcionário no
+mês de abril, faça um algoritmo que mostres a sua comissão
+e salário bruto neste mês, sabendo que o seu salário base é
+R$1.200,00 e sua comissão é de 10% sobre o total vendido. */
+
+var float vendas, comissao, salario;
+
+mostrar("Insira o total vendido este mês: ");
+escanear("%f", &vendas);
+
+comissao = vendas*0.1;
+
+salario = salario + comissao;
+
+mostrar("O salário do funcionário este mês será R$%.2f", salario);

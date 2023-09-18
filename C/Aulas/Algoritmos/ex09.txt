@@ -1,0 +1,6 @@
+Sabendo que A=5, B=4 e C=3 e D=6, informe se as
+expressões abaixo são verdadeiras ou falsas.
+
+a) (A>C) AND (C<=D) (V)
+b) (A+B)>10 OR (A+B)=(C+D) (V)
+c) (A>=C) AND (D>=C) (F)

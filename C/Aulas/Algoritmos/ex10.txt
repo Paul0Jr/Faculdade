@@ -1,0 +1,31 @@
+Sabe-se que o uso incorreto da precedência de
+operadores ocasiona erros. Pensando nisso,
+determine o resultado das expressões a seguir:
+(valores: A=8, B=5, C=-4, D=2)
+
+a) Delta = B2 – 4 * A * C
+Delta = 25 + 128
+Delta = 153
+
+b) J = “Hoje” <> “HOJE”
+Verdadeiro
+
+c) Media = (A + B + C + D) / 4
+Media = 11 / 4
+Media = 2,75
+
+d) Media = A + B + C + D / 4
+Media = 9 + 0,5
+Media = 9,5
+
+e) Resultado = A + B – 10 * C
+Resultado = 13 + 40
+Resultado = 53
+
+f) Y = A > 8 E B + C > D
+Y = (A>8=falso) E (B+C >D=falso)
+Y = Falso
+
+g) Y = A > 3 * 2 OU B + C <> D
+Y = (A>3*2 =verdadeiro) OU (B+C <> D =verdadeiro)
+Y = Verdadeiro

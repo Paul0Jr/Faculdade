@@ -1,0 +1,21 @@
+/* Identifique os dados de entrada, processamento e saída no
+algoritmo abaixo
+· Receba código da peça
+· Receba valor da peça
+· Receba Quantidade de peças
+· Calcule o valor total da peça (Quantidade * Valor da peça)
+· Mostre o código da peça e seu valor total */
+
+var int codigo_peca, quantidade;
+var float valor_peca;
+
+mostrar("Digite o código da peça: ");
+escanear("%d", &codigo_peca);
+
+mostrar("Digite o preço da peça: ");
+escanear("%f", &valor_peca);
+
+mostrar("Digite a quantidade de peças que irá comprar: ");
+escanear("%d", &quantidade);
+
+mostrar("O total de peças de código %d = R$%.2f", codigo_peca, quantidade*valor_peca);

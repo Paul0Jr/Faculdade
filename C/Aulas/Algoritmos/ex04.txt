@@ -1,0 +1,13 @@
+/* Faca um algoritmo que receba como entrada uma
+determinada temperatura em graus Celsius e mostre a
+temperatura em fahrenheit
+• OBS: Fahrenheit = (9/5)*(Celsius) + 32 */
+
+var int temperatura_celsius, Fahrenheit;
+
+mostrar("Digite a temperatura em Celsius: ");
+escanear("%d", &temperatura_celsius);
+
+Fahrenheit = (9/5)*(temperatura_celsius) + 32;
+
+mostrar("A temperatura de %d graus Celsius equivale a %d Fahrenheit!", temperatura_celsius, Fahrenheit);

@@ -1,0 +1,16 @@
+/* Faça um algoritmo para “Calcular o estoque médio de uma peça”, sendo que
+ESTOQUEMÉDIO = (QUANTIDADE MÍNIMA + QUANTIDADE
+MÁXIMA) /2 */
+
+var float ESTOQUEMÉDIO;
+var int qtd_minima, qtd_maxima;
+
+mostrar("Insira a quantidade mínima da peça: ");
+escanear("%d", &qtd_minima);
+
+mostrar("Digite a quantidade máxima da peça: ");
+escanear("%d", &qtd_maxima);
+
+ESTOQUEMÉDIO=(qtd_minima+qtd_maxima) / 2;
+
+mostrar("O estoque médio da peça será de %d produtos", ESTOQUEMÉDIO);
