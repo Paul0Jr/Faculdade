@@ -17,10 +17,11 @@ d.O identificador da pessoa mais velha.
 
 int main()
 {
-    int mais_velho, identificador, idade, soma_idade = 0, total10 = 0, nota = 0, porcentagem = 0, idade_velho = 0;
-    float media;
+    //int total;
+    int mais_velho, identificador, idade, soma_idade = 0, total10 = 0, nota = 0, opiniao_menor = 0, idade_velho = 0;
+    float media, porcentagem;
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 200; i++)
     {
         printf("\nDigite seu identificador: ");
         scanf("%d", &identificador);
@@ -61,19 +62,20 @@ int main()
         // A percentagem de pessoas que responderam 5 ou menos para a opinião da peça
         else if (nota <= 5)
         {
-            porcentagem++;
+            opiniao_menor++;
         }
+        // total++;
     }
     media = (float)soma_idade / 10;
+    porcentagem = (opiniao_menor / 200) * 100;
 
     printf("\nA quantidade total de respostas 10 = %d", total10);
     printf("\nA média de idade das pessoas que responderam o questionário = %.2f", media);
-    printf("\nA percentagem de pessoas que responderam 5 ou menos para a opinião da peça = %d", porcentagem);
+    printf("\nA percentagem de pessoas que responderam 5 ou menos para a opinião equivale a %.0f%% de 200 entrevistados", porcentagem);
     printf("\nO identificador da pessoa mais velha é %d e possui %d\n", mais_velho, idade_velho);
 
     return 0;
 }
 
 /* Obs: O programa pede porcentagem(%) do total que responderam 5 ou menos do total de entrevistados?
- A quantidade pesquisados = 200 ou um While?
-    */
+A quantidade pesquisados = 200 ou um While? */
