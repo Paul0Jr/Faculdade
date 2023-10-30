@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProdutosNotaveis {
+public class Funcao02 {
     public static double produtos(double a, double b){
         return (a*a) + (2*a*b) + (b*b);
     }
