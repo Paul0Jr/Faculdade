@@ -7,7 +7,7 @@ public class ex01 {
         System.out.format("%d * %d = %d", a, b, produto(a, b));
     }
 
-    static int produto(int a, int b){
-        return a*b;
+    static int produto(int a, int b) {
+        return a * b;
     }
 }

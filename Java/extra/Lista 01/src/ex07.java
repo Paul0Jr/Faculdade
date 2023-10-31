@@ -15,7 +15,7 @@ public class ex07 {
             for (int i = 1; i < 5; i++) {
                 System.out.format("Digite o %d° número: ", i);
                 num = leitor.nextFloat();
-                soma+=(i*num);
+                soma += (i * num);
             }
         }
         System.out.format("\nA média ponderada será de %.2f ", media_ponderada(soma));
