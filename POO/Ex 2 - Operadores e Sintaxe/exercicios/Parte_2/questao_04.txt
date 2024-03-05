@@ -1,6 +1,0 @@
-“Uma String é imutável”. Explique o significado desta afirmação e as razões que levaram a este
-comportamento.
-
-Resposta:
-Uma "string imutável" significa um tipo de dado que não pode ser alterado após ser criado.
- Em Python, temos o exemplo de tuplas, que ao contrário de listas, essas näo podem ter seus dados internos alterados.

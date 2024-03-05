@@ -1,6 +1,0 @@
-O que é o curto circuito em operadores lógicos? Explique.
-
-Resposta:
-Um curto-circuito é considera uma técnica de programação que melhora o desempenho do código em situações específicar.
- Exemplo, se definirmos: codigo1 && codigo2, caso a codigo1 seja falsa, logo toda a expressão será falsa.
- O mesmo acontece com o operador ||, caso o codigo1 seja verdadeiro, a expressão inteira será verdadeira. 
