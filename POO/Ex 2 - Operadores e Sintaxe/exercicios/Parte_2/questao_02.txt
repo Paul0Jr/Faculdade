@@ -1,0 +1,9 @@
+Qual o impacto do uso dos operadores de incremento (++) e decremento (--) antes ou depois de
+uma variável? Explique. Exemplo: System.out.println(++a) ou System.out.println(a++).
+
+Resposta:
+A diferença principal está na ordem em que a operação de incremento ou decremento é realizada em relação à avaliação da expressão em que está inserida.
+ Exemplo:
+ int x = 8;
+ int y = x++ //a variável irá receber 5 e logo após ocorre o incrementando, mudando seu valor 9.
+ int z = ++z //a variável será incrementada para 9, e logo em seguida z recebe o valor.
